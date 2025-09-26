@@ -1,14 +1,19 @@
 html {
-  background-color: #e4e9fd;
-  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
-  min-height: 1000px;
+  
+  min-height: 973px;
   font-family: "helvetica neue";
 }
 body {
   display: flex;
   flex-direction: column;
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
   justify-content: stretch;
   min-height: 95vh;
+}
+
+nav{
+ background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 90%);
 }
 main {
   text-align: center;
